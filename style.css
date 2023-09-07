@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(image2.jpg);
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#box{
+ border: 5px solid rgb(2, 15, 54);
+ height: 367px;
+ width: 357px;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 250px;
+ padding: 20px;
+ border-radius: 15px;
+ background-color: whitesmoke;
+}
+
+form{
+    padding: 14px 13px;
+    margin: 12px 11px;
+}
+
+#ig1{
+    margin: 15px auto;
+}
+
+#ig2{
+    margin: 15px auto;
+}
+
+input{
+    width: 90%;
+    height: 39%;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(41, 39, 39);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    color: whitesmoke;
+}
